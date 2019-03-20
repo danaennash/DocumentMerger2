@@ -10,7 +10,8 @@ namespace Test
             if (args.Length < 3)
             {
                 Console.WriteLine("DocumentMerger pt 2");
-                Console.WriteLine("List the text files you wish to merge.");
+                Console.WriteLine("DocumentMerger2 <input_file_1> <input_file_2> ... <input_file_n> <output_file>")
+                Console.WriteLine("Supply a list of text files to merge followed by the name of the resulting merged text file as command line arguments.")
             }else {
 
                 String outFile = args[args.Length - 1];  
