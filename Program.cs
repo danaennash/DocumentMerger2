@@ -9,7 +9,7 @@ namespace Test
         {
             if (args.Length < 3)
             {
-                Console.WriteLine("DocumentMerger pt 2\n");
+                Console.WriteLine("DocumentMerger pt 2 \n");
                 Console.WriteLine("List the text files you wish to merge.");
             }else {
 
